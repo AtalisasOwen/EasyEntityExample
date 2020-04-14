@@ -50,12 +50,11 @@
 
         <!-- EasyEntity2 依赖于 mapstruct， JPA， Spring Boot等库 -->
         <dependency>
-            <groupId>com.atalisas</groupId>
-            <artifactId>EasyEntity</artifactId>
-            <version>0.5</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/lib/EasyEntity-0.5.jar</systemPath>
+            <groupId>io.github.atalisasowen</groupId>
+            <artifactId>EasyEntity2</artifactId>
+            <version>0.6</version>
         </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -70,7 +69,6 @@
             <groupId>org.mapstruct</groupId>
             <artifactId>mapstruct-processor</artifactId>
             <version>${org.mapstruct.version}</version>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 
